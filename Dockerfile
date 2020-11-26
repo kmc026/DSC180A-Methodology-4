@@ -27,6 +27,7 @@ RUN pip install --no-cache-dir networkx scipy python-louvain
 
 RUN pip install --no-cache-dir geopandas
 RUN pip install --no-cache-dir babypandas
+RUN pip install --no-cache-dir opencv-python
 
 # 4) change back to notebook user
 COPY /run_jupyter.sh /
