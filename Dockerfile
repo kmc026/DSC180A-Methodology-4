@@ -29,6 +29,8 @@ RUN pip install --no-cache-dir geopandas
 RUN pip install --no-cache-dir babypandas
 RUN pip install --no-cache-dir opencv-python
 RUN pip install --no-cache-dir scikit-image
+RUN pip install --no-cache-dir pandas
+RUN pip install --no-cache-dir matplotlib
 
 # 4) change back to notebook user
 COPY /run_jupyter.sh /
